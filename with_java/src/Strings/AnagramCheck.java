@@ -46,7 +46,7 @@ public class AnagramCheck {
         return true;
     }
 
-    // GFG solution - [ O(n) TC ] | [ O(n) SC ]
+    // Efficient solution - [ O(n) TC ] | [ O(n) SC ]
     public static boolean isAnagramEfficient (String str1, String str2) {
 
         if (str1.length() != str2.length()) {
