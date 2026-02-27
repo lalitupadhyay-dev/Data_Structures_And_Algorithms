@@ -1,4 +1,4 @@
-package Strings;
+package Strings.easy;
 
 /*
     Problem statement: Check whether the string is Palindrome or not.

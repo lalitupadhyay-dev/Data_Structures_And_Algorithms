@@ -1,4 +1,4 @@
-package Strings;
+package Strings.medium;
 
 /*
     Problem statement: Count frequency of lower case alphabets in given string.

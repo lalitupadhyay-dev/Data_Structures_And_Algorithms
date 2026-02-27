@@ -1,4 +1,4 @@
-package Strings;
+package Strings.medium;
 
 /*
     Problem statement: Check that "str2" is subsequence of "str1" or not.
