@@ -33,5 +33,7 @@ public class SecondLargest {
 
         System.out.println(findSecondLargest(arr));
 
+        scan.close();
+
     }
 }
