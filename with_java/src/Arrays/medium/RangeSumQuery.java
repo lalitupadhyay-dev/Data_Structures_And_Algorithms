@@ -35,11 +35,11 @@ public class RangeSumQuery {
         n = Integer.parseInt(br.readLine());
 
         int[] arr = new int[n];
-
         StringTokenizer stz1 = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; ++i) {
             arr[i] = Integer.parseInt( stz1.nextToken());
         }
+
 
         // for running optimizedSol
         long[] pSum = optimizedSol(arr);
