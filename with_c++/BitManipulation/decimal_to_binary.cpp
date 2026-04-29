@@ -20,6 +20,24 @@ string decimal_to_binary_str (int n) {
 
 }
 
+void decimal_to_binary_number (long long n) {
+    long long bin = 0ll;
+    long long i = 1;
+    while (n > 0) {
+        
+        int rem = n % 2;
+        
+        bin = bin + (i * rem);
+        
+        i = i * 10;
+        n = n >> 1;
+        
+    }
+    
+    cout << bin << "\n";
+    
+}
+
 
 int main() {
     
