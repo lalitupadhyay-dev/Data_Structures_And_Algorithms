@@ -1,6 +1,6 @@
 package Recursion;
 
-public class PowerOfX2N {
+public class PowerOfX2N_1 {
 
     static int pow (int x, int n) {
 
