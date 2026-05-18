@@ -2,7 +2,7 @@ package Backtracking;
 
 import java.util.ArrayList;
 
-public class PossibleJumpOnStairs {
+public class ClimbStairsOne_1 {
     static void jump (int j, int n, ArrayList<Integer> arr) {
         if (j == n) {
             for (Integer ele: arr) {
